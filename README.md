@@ -1,9 +1,9 @@
-# vue-pdf
-vue.js pdf viewer
+# vue-pdf-al
+对于vue-pdf 进行优化处理，采用cdn 引入 pdf.js 和 pdf.work.js 减少js打包文件
 
 ## Install
 ```
-npm install --save vue-pdf
+npm install --save vue-pdf-al
 ```
 
 ## Example - basic
@@ -20,6 +20,14 @@ export default {
     pdf
   }
 }
+
+
+
+vue index.html 中引入cdn 
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.0.943/build/pdf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.0.943/web/pdf_viewer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.0.943/build/pdf.worker.min.js"></script>
 ```
 
 ## Demo

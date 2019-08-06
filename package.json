@@ -1,24 +1,24 @@
 {
-  "name": "vue-pdf",
-  "version": "4.0.7",
-  "description": "vue.js pdf viewer",
+  "name": "vue-pdf-al",
+  "version": "1.0.0",
+  "description": "Vue pdf 优化版本",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranckFreiburger/vue-pdf.git"
+    "url": "git+https://github.com/abcde158308/vue-pdf-al.git"
   },
   "keywords": [
     "vue.js",
     "pdf",
     "viewer"
   ],
-  "author": "Franck FREIBURGER",
+  "author": "liulei",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FranckFreiburger/vue-pdf/issues"
+    "url": "https://github.com/abcde158308/vue-pdf-al/issues"
   },
-  "homepage": "https://github.com/FranckFreiburger/vue-pdf#readme",
+  "homepage": "https://github.com/abcde158308/vue-pdf-al#readme",
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "loader-utils": "^1.2.3",

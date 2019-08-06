@@ -1,4 +1,4 @@
-import { PDFLinkService } from 'pdfjs-dist/lib/web/pdf_link_service';
+var PDFLinkService = pdfjsViewer.PDFLinkService
 
 export default function(PDFJS) {
 
