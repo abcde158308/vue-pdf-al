@@ -1,6 +1,6 @@
 {
   "name": "vue-pdf-al",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue pdf 优化版本",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},
