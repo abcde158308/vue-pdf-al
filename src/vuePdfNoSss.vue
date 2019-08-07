@@ -6,11 +6,11 @@
 	if ( process.env.VUE_ENV !== 'server' ) {
 
 		var pdfjsWrapper = require('./pdfjsWrapper.js').default;
-		var PDFJS = pdfjsLib || require('pdfjs-dist/build/pdf.js');
+		var PDFJS = pdfjsLib ;
 
 		if ( typeof window !== 'undefined' && 'Worker' in window && navigator.appVersion.indexOf('MSIE 10') === -1 ) {
 
-			var PdfjsWorker = PdfjsWorker || require('worker-loader!pdfjs-dist/build/pdf.worker.js');
+			var PdfjsWorker = PdfjsWorker;
 			PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
 		}
 

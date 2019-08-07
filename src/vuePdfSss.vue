@@ -4,13 +4,13 @@
 	import componentFactory from './componentFactory'
 	import pdfjsWrapper from './pdfjsWrapper'
 
-	var PDFJS = pdfjsLib||PDFJSrequire('pdfjs-dist/build/pdf.js');
+	var PDFJS = pdfjsLib;
 
 	if ( process.env.VUE_ENV !== 'server' ) {
 
 		if ( typeof window !== 'undefined' && 'Worker' in window ) {
 
-			var PdfjsWorker =PdfjsWorker || require('worker-loader!pdfjs-dist/build/pdf.worker.js');
+			var PdfjsWorker =PdfjsWorker;
 			PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
 		}
 	}

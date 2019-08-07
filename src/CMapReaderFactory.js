@@ -1,4 +1,4 @@
-var PDFJS = pdfjsLib || require('pdfjs-dist/build/pdf.js');
+var PDFJS = pdfjsLib
 // see https://github.com/mozilla/pdf.js/blob/628e70fbb5dea3b9066aa5c34cca70aaafef8db2/src/display/dom_utils.js#L64
 
 export default function() {

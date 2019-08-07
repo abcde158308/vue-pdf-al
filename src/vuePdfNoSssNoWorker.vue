@@ -6,7 +6,7 @@
 	if ( process.env.VUE_ENV !== 'server' ) {
 
 		var pdfjsWrapper = require('./pdfjsWrapper.js').default;
-		var PDFJS =pdfjsLib || require('pdfjs-dist/build/pdf.js');
+		var PDFJS =pdfjsLib;
 		var component = componentFactory(pdfjsWrapper(PDFJS));
 	} else {
 
