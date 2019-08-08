@@ -6,7 +6,7 @@
 	if ( process.env.VUE_ENV !== 'server' ) {
 
 		var pdfjsWrapper = require('./pdfjsWrapper.js').default;
-		var PDFJS = pdfjsLib ;
+		var PDFJS = pdfjsLib;
 
 		if ( typeof window !== 'undefined' && 'Worker' in window && navigator.appVersion.indexOf('MSIE 10') === -1 ) {
 
